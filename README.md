@@ -4,7 +4,7 @@ Flutter project untuk meyimpan dan membaca data dalam database MySql.
 
 
 ### runing program
-untuk jalankan pada Google Chrome salin code dibawah:
+untuk jalankan pada Google Chrome salin code dibawah:<br>
 flutter run -d chrome --web-browser-flag "--disable-web-security" 
 
 
