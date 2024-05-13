@@ -17,7 +17,7 @@ class _TambahDataState extends State<TambahData> {
 
   Future _saveData() async {
     final respon = await http.post(
-        Uri.parse('http://192.168.1.10/flutterApi/CRUD/create.php'),
+        Uri.parse('http://192.168.137.99/flutterApi/CRUD/create.php'),
         body: {
           "NRP": _nrpContriller.text,
           "Nama Mahasiswa": _namaContriller.text,

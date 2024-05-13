@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
     try {
       // harus pakai = flutter run -d chrome --web-browser-flag "--disable-web-security" :(
       final respon = await http
-          .get(Uri.parse('http://192.168.1.10/flutterApi/CRUD/read.php'));
+          .get(Uri.parse('http://192.168.137.99/flutterApi/CRUD/read.php'));
       if (respon.statusCode == 200) {
         final data = jsonDecode(respon.body);
         setState(() {
